@@ -2,9 +2,11 @@
 export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
-    extend: {},
-  },
-  plugins: [
+    extend: {backgroundImage: {
+      'nerd-bg': "url('/src/assets/nerd.png')",
+    }
+},
+  },  plugins: [
     function ({ addUtilities }) {
       const newUtilities = {
         ".no-scrollbar::-webkit-scrollbar": {
