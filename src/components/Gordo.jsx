@@ -1,4 +1,4 @@
-import gordologo from "../assets/Gordobg.png";
+import gordologo from "../assets/GordoMikeGeminiAI.jpg";
 
 const Gordo = () => {
   return (
